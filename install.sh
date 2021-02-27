@@ -21,3 +21,6 @@ cp compile-gcc-aarch64.sh ~/.local/bin
 # Create a link with the desirable executable name
 ln -s ~/.local/bin/compile-gcc-aarch64.sh ~/.local/bin/"$EXENAME"
 
+# Ask user to add ~/.local/bin to the PATH.
+echo "Please make sure that $HOME/.local/bin is in the PATH environment variable."
+
