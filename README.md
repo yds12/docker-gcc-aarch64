@@ -12,9 +12,14 @@ To install:
 
 Press ENTER when prompted.
 
+Add `~/.local/bin` to `PATH`.
+
 To run:
 
     $ compile-aarch64 -o hello hello.c
+
+Copy the `hello` executable to an `aarch64` (arm64) machine and run:
+
     $ ./hello
     Hello from aarch64!
 
