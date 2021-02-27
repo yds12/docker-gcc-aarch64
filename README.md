@@ -1,11 +1,13 @@
-A dockerised installation of the aarch64 gcc cross compiler.
+A Dockerised installation of the aarch64 gcc cross compiler.
 
 # Install
 
+To install this compiler container, you need [Docker](https://www.docker.com/)
+and a Linux computer.
+
 ## Install Docker
 
-If you are in Debian, Ubuntu, Linux Mint or other Debian based distro,
-to install [Docker](https://www.docker.com/), run:
+If you are in Debian, Ubuntu, Linux Mint or other Debian based distro, run:
 
     $ apt install docker
 
@@ -15,7 +17,10 @@ Run:
 
     $ ./build.sh
 
-## Install
+## Install the Compilation Script
+
+This step is not strictly necessary, but it makes the use of the compiler
+easier.
 
 Run:
 
@@ -43,4 +48,8 @@ You can check that an `aarch64` executable is generated in the working
 directory with:
 
     $ file hello
+
+If you skipped the install step above, you can compile by directly invoking
+the `compile-gcc-aarch64.sh` script, passing the arguments for `gcc` as in
+the previous example.
 
