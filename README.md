@@ -1,5 +1,23 @@
 A Dockerised installation of the aarch64 gcc cross compiler.
 
+# TL;DR
+
+To install:
+
+    $ apt install docker
+    $ git clone https://github.com/yds12/docker-gcc-aarch64
+    $ cd docker-gcc-aarch64
+    $ ./build.sh
+    $ ./install.sh
+
+Press ENTER when prompted.
+
+To run:
+
+    $ compile-aarch64 -o hello hello.c
+    $ ./hello
+    Hello from aarch64!
+
 # Install
 
 To install this compiler container, you need [Docker](https://www.docker.com/)
