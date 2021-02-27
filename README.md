@@ -1,5 +1,8 @@
 A Dockerised installation of the aarch64 gcc cross compiler.
 
+With this script, you can run a Docker container that will allow you to compile
+C programs for the ARM 64-bit architecture (also known as `aarch64` or `arm64`).
+
 # TL;DR
 
 To install:
